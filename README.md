@@ -6,6 +6,10 @@ Instale a extensão Live Server no Visual Studio Code
 
 ###### `git clone` https://github.com/paulohfsantos/login.git
 
+Projeto feito com o `gulp`
+
+Para gerar os arquivos `javascript` e `css` minificados digite `gulp`
+
 Pronto =)
 
 ## Thank you
