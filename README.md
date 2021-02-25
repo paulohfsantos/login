@@ -4,7 +4,7 @@
 
 Instale a extensão Live Server no Visual Studio Code
 
-###### `git clone` https://github.com/paulohfsantos/pubg-page.git
+###### `git clone` https://github.com/paulohfsantos/login.git
 
 Pronto =)
 
