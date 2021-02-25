@@ -2,7 +2,7 @@
 
 ## Para baixar basta dar um pull no projeto e executar no Live Server
 
-## Instale a extensão Live Server no Visual Studio Code
+Instale a extensão Live Server no Visual Studio Code
 
 ###### `git clone` https://github.com/paulohfsantos/pubg-page.git
 
