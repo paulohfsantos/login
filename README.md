@@ -1,6 +1,6 @@
 # Static login Interface
 
-## Para baixar basta dar um pull no projeto e executar no Live Server
+## Para baixar basta dar um clone no projeto e executar no Live Server
 
 Instale a extensão Live Server no Visual Studio Code
 
