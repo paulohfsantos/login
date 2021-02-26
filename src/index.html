@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login | Coursify.me</title>
+        <!--css-->
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <main>
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="logo">
+                                                        <img src="../assets/logo.svg" alt="">
+                                                    </div>
+                                                    <div class="welcome">
+                                                        <h5>Seja bem vindo ao <span>Coursify.Me Enterprise</span></h5>
+                                                        <p>Although the bobcat is rarely seen, it is the most common wildcat in North America.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12" id="login">
+                                                    <div class="login-card">
+                                                        <form id="loginform" onsubmit="handleSubmit()" action="">
+                                                            <div class="col-12 p-0 flex-row">
+                                                                <h2>Login</h2>
+                                                                <span class="btnSwap" onclick="swap()">Cadastro</span>
+                                                            </div>
+                                                            <div class="col-12 p-0">
+                                                                <div class="form-group">
+                                                                    <input type="email" name="email" id="email" placeholder="E-mail">
+                                                                    <input type="password" name="pass" id="pass" placeholder="Senha">
+                                                                    <a>Esqueci minha senha</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 p-0 text-center">
+                                                                <button type="submit">Login</button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12" id="cadastro">
+                                                    <div class="login-card">
+                                                        <form id="loginform" onsubmit="handleSubmit()" action="">
+                                                            <div class="col-12 p-0 flex-row">
+                                                                <h2>Cadastro</h2>
+                                                                <span class="btnSwap" onclick="swap()">Login</span>
+                                                            </div>
+                                                            <div class="col-12 p-0">
+                                                                <div class="form-group">
+                                                                    <input type="text" name="escola" id="escola" placeholder="Nome da Escola">
+                                                                    <input type="email" name="createemail" id="createemail" placeholder="E-mail">
+                                                                    <input type="password" name="createpass" id="createpass" placeholder="Crie uma Senha">
+                                                                    <div class="row">
+                                                                        <div class="col-3 p-0">
+                                                                            <select name="phoneddd" id="phoneddd">
+                                                                                <option value="brazil">+55</option>
+                                                                                <option value="us">+1</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="col-7 p-0">
+                                                                            <input type="tel" name="phonenum" id="phonenum" placeholder="00 0 0000-0000">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 p-0 text-center">
+                                                                <button type="submit">Login</button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 text-center">
+                                            <div class="footer-card">
+                                                <p>2020 © Coursify.Me. Todos os direitos reservados</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 flex">
+                                <!--slideshow-->
+                                <div class="slider-dots">
+                                    <ol>
+                                        <li class="active"></li>
+                                        <li></li>
+                                    </ol>
+                                </div>
+                                <div class="slider">
+                                    <div class="slide-width">
+                                        <div class="slide-item">
+                                            <img src="../assets/image_01.svg" alt="">
+                                        </div>
+                                        <div class="slide-item">
+                                            <img src="../assets/image_02.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>
